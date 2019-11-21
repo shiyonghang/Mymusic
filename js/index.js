@@ -68,14 +68,14 @@ var lyricHeight = [];
 //其中type=song指定该接口时获取歌曲信息
 //id是歌曲的id，可以在网易云分享歌曲链接中看到
 //br为歌曲波特率，可以为128k，或者320k
-var songUrl = "https://api.imjad.cn/cloudmusic/?type=song&id=3779629&br=128000";
+var songUrl = "https://api.imjad.cn/cloudmusic/?type=song&id=3778678&br=128000";
 
 //其中id为某个歌单的id，比如“我的喜欢”歌单，同样在分享链接中可以找到
 var playlistUrl = "https://api.imjad.cn/cloudmusic/?type=playlist&id=";
 //var playListID = "379133594"; //欧美经典|总有一首歌直击你心
 //var playListID = "75182300"; //评论过万的英语歌与潜力股
 //var playListID = "2484734225"; //万次评论只为这个旋律
-var playListID = "3779629"; //每日新歌
+var playListID = "3778678"; //热歌榜
 
 //获取用户名歌单的接口
 var songList = "https://api.imjad.cn/cloudmusic/?type=search&search_type=1000&s=";
