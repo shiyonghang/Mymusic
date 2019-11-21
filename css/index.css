@@ -77,29 +77,30 @@ body {
 
 .player .progress {
 	width: 0;
-	height: 17%;
+	height: 14%;
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), aqua);
 	background-image: linear-gradient(top, rgba(255, 255, 255, 0), aqua);
 	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
+	/* border-bottom-right-radius: 10px; */
 	opacity: .6;
 }
 
 .player .controls {
 	position: relative;
-	margin: 15px 0px;
+	margin: 10px 0px;
 }
 
 .player .controls .play {
 	cursor: pointer;
-	width: 75px;
-	height: 75px;
+	width: 35px;
+	height: 35px;
 	border: 2px solid #ccc;
 	border-radius: 50%;
 	margin: auto;
+	margin-top: 30px;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -123,7 +124,7 @@ body {
 .player .controls .previous {
 	cursor: pointer;
 	position: absolute;
-	top: 25px;
+	top: 0px;
 	font-size: 30px;
 	left: 60px
 }
@@ -135,7 +136,7 @@ body {
 .player .controls .next {
 	cursor: pointer;
 	position: absolute;
-	top: 25px;
+	top: 0px;
 	font-size: 30px;
 	right: 60px
 }
@@ -184,7 +185,7 @@ body {
 	background-color: white;
 	border: none;
 	border-radius: 15px;
-	box-shadow: 0 9px #999;
+	box-shadow: -3px -4px #999;
 }
 
 .button:hover,
