@@ -49,11 +49,11 @@ body {
 	margin: auto;
 	border-radius: 10px;
 }
-
+/*
 .albumPic {
-	/*display: none;*/
+	display: none;
 }
-
+*/
 .musicList {
 	border: 1px solid #ccc;
 	padding-left: 10px;
@@ -84,7 +84,7 @@ body {
 	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), aqua);
 	background-image: linear-gradient(top, rgba(255, 255, 255, 0), aqua);
 	border-bottom-left-radius: 10px;
-	/* border-bottom-right-radius: 10px; */
+	border-bottom-right-radius: 10px;
 	opacity: .6;
 }
 
@@ -95,8 +95,8 @@ body {
 
 .player .controls .play {
 	cursor: pointer;
-	width: 35px;
-	height: 35px;
+	width: 42px;
+	height: 42px;
 	border: 2px solid #ccc;
 	border-radius: 50%;
 	margin: auto;
@@ -118,13 +118,13 @@ body {
 }
 
 .player .controls .play:hover {
-	font-size: 40px
+	font-size: 42px
 }
 
 .player .controls .previous {
 	cursor: pointer;
 	position: absolute;
-	top: 0px;
+	top: 4px;
 	font-size: 30px;
 	left: 60px
 }
@@ -136,7 +136,7 @@ body {
 .player .controls .next {
 	cursor: pointer;
 	position: absolute;
-	top: 0px;
+	top: 4px;
 	font-size: 30px;
 	right: 60px
 }

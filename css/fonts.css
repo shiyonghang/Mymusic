@@ -43,6 +43,7 @@
 
 .icon-play:before {
 	content: "\ea1c";
+	margin-left: 4px;
 }
 
 .icon-pause:before {
